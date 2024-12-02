@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+html, style {
+    min-height: 100% !important;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    background-color: lightgrey;
+    text-transform: capitalize;
+}
+
+.heading {
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+
+.subheading {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    padding-bottom: 70px;
+}
+
+.box { 
+    width: 400px;
+    height: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.boxtitle {
+    padding-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    margin-bottom: 30px;
+}
+.search_field {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input {
+    margin-left: 70px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    border-color: black;
+    text-transform: capitalize;
+}
+
+.search {
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container {
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.pokeInfo {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: black;
+}

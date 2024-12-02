@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="poke.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Index</title>
+</head>
+<body>
+    <h1 class="heading">Welcome to Rami's Pokemon Index!</h1>
+    <h1 class="subheading">Powered by PokeAPI</h1>
+    <div class="box">
+        <h2 class="boxtitle">Enter any Pokemon below</h2>
+        <div class="search_field">
+            <input class="input" type="text" id="name" placeholder="Pokemon Name">
+            <button class="search" id="search" type="submit" onclick="getPoke()">Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="" alt="Pokemon" id="pokemonSprite" class="img" style="display: none;">
+        <div class="pokeInfo" id="pokeInfo">
+            <p id="height"></p>
+            <p id="weight"></p>
+            <p id="abilities"></p>
+            <p id="experience"></p>
+            <p id="heldItems"></p>
+            <p id="topMoves"></p>
+        </div>
+    </div>
+    <script src="poke.js"></script>
+</body>
+</html>
